@@ -8,5 +8,6 @@ class Robot implements RobotI {
     }
 }
 
-const myRobot = new Robot();
-myRobot.identify(100);
+const myRobot1: RobotI = new Robot();
+myRobot1.identify(100);
+

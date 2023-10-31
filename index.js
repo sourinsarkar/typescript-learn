@@ -6,5 +6,5 @@ var Robot = /** @class */ (function () {
     };
     return Robot;
 }());
-var myRobot = new Robot();
-myRobot.identify(100);
+var myRobot1 = new Robot();
+myRobot1.identify(100);
