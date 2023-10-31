@@ -1,4 +1,8 @@
-class Robot {
+interface RobotI {
+    identify: (id: number) => void;
+}
+
+class Robot implements RobotI {
     identify(id: number) {
         console.log(`Beeps ${id}`);
     }
